@@ -1,0 +1,50 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=2cm]{geometry} % 页边距
+\usepackage{graphicx} % 插入图片
+\usepackage{caption}  % 自定义caption
+\usepackage{parskip}  % 段落间距
+\usepackage{enumitem} % 列表
+
+\begin{document}
+
+% =====================
+% 1. 学生信息
+% =====================
+\begin{center}
+    {\LARGE EE6427 Assignment: Controllable Video Generation} \\[0.5cm]
+    {\Large Ziming Yan, G1234567A} % <- 改成你的姓名和学号
+\end{center}
+\vspace{0.5cm}
+
+% =====================
+% 2. Part 1: Objective & Motivation
+% =====================
+\section*{Part 1: Objective and Motivation}
+
+\noindent
+Pose-guided video generation aims to synthesize realistic videos where motion is controlled by human poses while preserving identity and appearance. The motivation is to allow precise and intuitive control over human motion in generated videos. Pose guidance provides structured spatial-temporal constraints, ensuring motion accuracy and natural dynamics. This approach is valuable for animation, virtual reality, fitness training, and film-making, where generating high-quality motion sequences from limited input data can save significant manual effort.
+
+% =====================
+% 3. Part 2: Infographic / Figure
+% =====================
+\section*{Part 2: Infographic / Figure}
+
+% \begin{figure}[h!]
+%     \centering
+%     % 将下面路径换成你自己绘制的图像文件
+%     \includegraphics[width=0.75\textwidth]{infographic.png}
+%     \caption{Cross-species action-guided video generation: input video + target animal $\rightarrow$ motion abstraction $\rightarrow$ body mapping $\rightarrow$ video synthesis. Applications include animation, AR/VR, sports training. Challenges: temporal consistency, realism, generalization.}
+%     \label{fig:cross_species}
+% \end{figure}
+
+% =====================
+% 4. References
+% =====================
+\section*{References}
+\begin{enumerate}[label={[\arabic*]}]
+    \item Chan, C. et al., ``Everybody Dance Now'', CVPR 2019.
+    \item Siarohin, A. et al., ``First Order Motion Model for Image Animation'', NeurIPS 2019.
+    \item Zhang, X. et al., ``Pose-Guided Person Image Generation'', ICCV 2019.
+\end{enumerate}
+
+\end{document}
