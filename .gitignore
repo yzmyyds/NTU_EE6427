@@ -9,6 +9,7 @@
 *.synctex.gz
 *.out
 *.xdv
+*.dvi
 
 # General
 *.store
