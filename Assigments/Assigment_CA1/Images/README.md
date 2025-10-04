@@ -1,0 +1,1 @@
+Save images which may be used for reports and assignments.
