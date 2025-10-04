@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{gan_humandit_2025}
+Q.~Gan, Y.~Ren, C.~Zhang, Z.~Ye, P.~Xie, X.~Yin, Z.~Yuan, B.~Peng, and J.~Zhu, ``{HumanDiT}: {Pose}-{Guided} {Diffusion} {Transformer} for {Long}-form {Human} {Motion} {Video} {Generation},'' Aug. 2025.
+\newblock arXiv:2502.04847 [cs].
+
+\bibitem{sun_ponymation_2024}
+K.~Sun, D.~Litvak, Y.~Zhang, H.~Li, J.~Wu, and S.~Wu, ``Ponymation: {Learning} {Articulated} {3D} {Animal} {Motions} from {Unlabeled} {Online} {Videos},'' July 2024.
+\newblock arXiv:2312.13604 [cs].
+
+\bibitem{yang_transmomo_2020}
+Z.~Yang, W.~Zhu, W.~Wu, C.~Qian, Q.~Zhou, B.~Zhou, and C.~C. Loy, ``{TransMoMo}: {Invariance}-{Driven} {Unsupervised} {Video} {Motion} {Retargeting},'' Apr. 2020.
+\newblock arXiv:2003.14401 [cs].
+
+\end{thebibliography}

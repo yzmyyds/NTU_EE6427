@@ -3,6 +3,16 @@
 \usepackage{geometry}
 \usepackage{amsmath}
 \usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}  
+\usepackage{cite}              
 
 % Make header with name and date etc.
 \usepackage{fancyhdr}
@@ -75,17 +85,16 @@ Comparing with the 2D-DFT, the 2D-DCT is easier to compute. The DCT only conside
 \end{itemize}
 
 \subsection*{Part 2:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Infographic.png}
+    \caption{Infographic of Cross-Species Motion Transfer}
+    \label{fig:infographic}
+\end{figure}
+\cite{gan_humandit_2025}\cite{sun_ponymation_2024}\cite{yang_transmomo_2020}
 
-
-
-\newpage
-
-\section*{References}
-\begin{enumerate}[label={[\arabic*]}]
-    \item Chan, C. et al., ``Everybody Dance Now'', CVPR 2019.
-    \item Siarohin, A. et al., ``First Order Motion Model for Image Animation'', NeurIPS 2019.
-    \item Zhang, X. et al., ``Pose-Guided Person Image Generation'', ICCV 2019.
-\end{enumerate}
+\bibliographystyle{ieeetr}   % 参考文献样式，可换 plain, unsrt 等
+\bibliography{references}     % 你的 .bib 文件名，不加 .bib 后缀
 
 
 \end{document}
