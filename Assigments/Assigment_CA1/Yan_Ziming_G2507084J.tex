@@ -22,13 +22,15 @@
 \setlength{\parindent}{0pt} % Don't indent new paragraphs
 \setlength{\headheight}{24pt} 
 
+\doublespacing
 % \onehalfspacing
+\geometry{a4paper, left=25mm, right=25mm, top=25mm, bottom=25mm}
 
 \begin{document}
 
 \section{2D-DCT Transform}
 
-(a) For $A^{4\times4}$, N=4. Therefore, the DCT matrix T should be:  
+\subsection*{(a)} For $A^{4\times4}$, N=4. Therefore, the DCT matrix T should be:  
 
 $ T[i,j]=
 \begin{cases}
@@ -59,27 +61,22 @@ Therefore, the consequence D=$\begin{bmatrix}
 0.0000 & 0.0000 & 0.0000 & 0.0000\\
 -3.8268 & -3.5355 & 0.0000 & 1.4645\\
 \end{bmatrix}$. 
-(b)Comparing with the 2D-DFT, the 2D-DCT is easier to compute. The DCT only consider the cosine computation. The DFT must consider cosine and sine computation at same time. They will have similar performance on sjowing the color frequency on images. However, the DCT could save half of computation cost. Therefore, DCT performs better from my perspective.
+\subsection*{(b)}
+Comparing with the 2D-DFT, the 2D-DCT is easier to compute. The DCT only consider the cosine computation. The DFT must consider cosine and sine computation at same time. They will have similar performance on sjowing the color frequency on images. However, the DCT could save half of computation cost. Therefore, DCT performs better from my perspective.
 
 
 \section{Controllable Vedio Generation}
 
-(a) Cross-subject motion-guided video generation aims 
- to transfer actions from a source video (e.g., a person
- running) to a different target subject (e.g., a horse 
- or lion), preserving motion semantics while adapting 
- appearance. This approach leverages video signal 
- processing techniques, such as spatiotemporal feature 
- extraction, skeleton/keypoint estimation, and 
- frame-wise motion modeling, enabling temporally 
- coherent video synthesis. The motivation is to 
- explore novel applications in animation, virtual 
- character creation, and behavior simulation, while 
- addressing challenges in motion-appearance 
- disentanglement and realistic video generation (80 Words). 
- 
+\subsection*{Part 1:} 
+\begin{itemize} 
+    \item \textbf{Method Description:} Cross-subject motion-guided video generation aims to transfer human motion dynamics into realistic animal behaviors through pose-guided diffusion models. 
+    \item \textbf{Objective:} The objective is to generate biologically consistent videos where animals perform human-like actions naturally while preserving each species' motion traits.
+    \item \textbf{Motivation:} This method would reduce the production cost of animal films and animations, enable controllable motion synthesis across species, and enhance visual realism and creativity in AI-assisted video generation. \textit{(95 Words)}
+\end{itemize}
 
-(b). 
+\subsection*{Part 2:}
+
+
 
 \newpage
 
